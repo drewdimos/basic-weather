@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
-  "homepage": "http://drewdimos.github.io/basic-weather"
+  "homepage": "https://drewdimos.github.io/basic-weather"
 }
