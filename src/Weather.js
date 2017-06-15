@@ -43,7 +43,7 @@ export default class Weather extends React.Component {
 
 
 	render() {
-		var currentTemp = 'not loaded yet';
+		var currentTemp = 'Enter location below';
 		var currentIcon = 'placeholder.png';
 		var condition = 'placeholder.png';
 
@@ -87,6 +87,13 @@ export default class Weather extends React.Component {
 								/>
 							</label>
 						</form>
+					</div>
+				</div>
+				<div className="row">
+					<div className="small-8 text-center small-centered columns">
+						<span id="links"><a href="http://172.20.10.2:8080/">Home | </a></span>
+						<span id="links" ><a href="http://172.20.10.2:3333/">Tasks | </a></span>
+						<span id="links"><a href="http://172.20.10.2:3000/">Chat</a></span>
 					</div>
 				</div>
 			</div>
